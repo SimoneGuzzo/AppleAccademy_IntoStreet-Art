@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AD1544623EED9D600AB8C89 /* StreetArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD1544523EED9D600AB8C89 /* StreetArt.swift */; };
+		7AD1544823EED9E400AB8C89 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD1544723EED9E400AB8C89 /* Favorites.swift */; };
+		7AD1544A23EEDA1B00AB8C89 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD1544923EEDA1B00AB8C89 /* LocationManager.swift */; };
+		7AD1544C23EEDA7A00AB8C89 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD1544B23EEDA7A00AB8C89 /* Map.swift */; };
+		7AD1544E23EEDA8100AB8C89 /* Pagina1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD1544D23EEDA8100AB8C89 /* Pagina1.swift */; };
+		7AF9680523EC23D900C27749 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF9680423EC23D900C27749 /* AppDelegate.swift */; };
+		7AF9680723EC23D900C27749 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF9680623EC23D900C27749 /* SceneDelegate.swift */; };
+		7AF9680923EC23D900C27749 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF9680823EC23D900C27749 /* ContentView.swift */; };
+		7AF9680B23EC23DB00C27749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AF9680A23EC23DB00C27749 /* Assets.xcassets */; };
+		7AF9680E23EC23DB00C27749 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AF9680D23EC23DB00C27749 /* Preview Assets.xcassets */; };
+		7AF9681123EC23DB00C27749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF9680F23EC23DB00C27749 /* LaunchScreen.storyboard */; };
+		7AF9681C23EC23DB00C27749 /* IntoStreet_ArtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF9681B23EC23DB00C27749 /* IntoStreet_ArtTests.swift */; };
+		7AF9682723EC23DB00C27749 /* IntoStreet_ArtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF9682623EC23DB00C27749 /* IntoStreet_ArtUITests.swift */; };
+		7AF9683523EC24F500C27749 /* StreetArtDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF9683423EC24F500C27749 /* StreetArtDetail.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AF9681823EC23DB00C27749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AF967F923EC23D900C27749 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AF9680023EC23D900C27749;
+			remoteInfo = "IntoStreet Art";
+		};
+		7AF9682323EC23DB00C27749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AF967F923EC23D900C27749 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AF9680023EC23D900C27749;
+			remoteInfo = "IntoStreet Art";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7AD1544523EED9D600AB8C89 /* StreetArt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreetArt.swift; sourceTree = SOURCE_ROOT; };
+		7AD1544723EED9E400AB8C89 /* Favorites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = SOURCE_ROOT; };
+		7AD1544923EEDA1B00AB8C89 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = SOURCE_ROOT; };
+		7AD1544B23EEDA7A00AB8C89 /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = SOURCE_ROOT; };
+		7AD1544D23EEDA8100AB8C89 /* Pagina1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pagina1.swift; sourceTree = SOURCE_ROOT; };
+		7AF9680123EC23D900C27749 /* IntoStreet Art.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IntoStreet Art.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF9680423EC23D900C27749 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7AF9680623EC23D900C27749 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7AF9680823EC23D900C27749 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7AF9680A23EC23DB00C27749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AF9680D23EC23DB00C27749 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7AF9681023EC23DB00C27749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AF9681223EC23DB00C27749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AF9681723EC23DB00C27749 /* IntoStreet ArtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IntoStreet ArtTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF9681B23EC23DB00C27749 /* IntoStreet_ArtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntoStreet_ArtTests.swift; sourceTree = "<group>"; };
+		7AF9681D23EC23DB00C27749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AF9682223EC23DB00C27749 /* IntoStreet ArtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IntoStreet ArtUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF9682623EC23DB00C27749 /* IntoStreet_ArtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntoStreet_ArtUITests.swift; sourceTree = "<group>"; };
+		7AF9682823EC23DB00C27749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AF9683423EC24F500C27749 /* StreetArtDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreetArtDetail.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AF967FE23EC23D900C27749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF9681423EC23DB00C27749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF9681F23EC23DB00C27749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AF967F823EC23D900C27749 = {
+			isa = PBXGroup;
+			children = (
+				7AF9680323EC23D900C27749 /* IntoStreet Art */,
+				7AF9681A23EC23DB00C27749 /* IntoStreet ArtTests */,
+				7AF9682523EC23DB00C27749 /* IntoStreet ArtUITests */,
+				7AF9680223EC23D900C27749 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AF9680223EC23D900C27749 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AF9680123EC23D900C27749 /* IntoStreet Art.app */,
+				7AF9681723EC23DB00C27749 /* IntoStreet ArtTests.xctest */,
+				7AF9682223EC23DB00C27749 /* IntoStreet ArtUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AF9680323EC23D900C27749 /* IntoStreet Art */ = {
+			isa = PBXGroup;
+			children = (
+				7AF9680423EC23D900C27749 /* AppDelegate.swift */,
+				7AF9680623EC23D900C27749 /* SceneDelegate.swift */,
+				7AD1544723EED9E400AB8C89 /* Favorites.swift */,
+				7AD1544523EED9D600AB8C89 /* StreetArt.swift */,
+				7AD1544923EEDA1B00AB8C89 /* LocationManager.swift */,
+				7AD1544D23EEDA8100AB8C89 /* Pagina1.swift */,
+				7AD1544B23EEDA7A00AB8C89 /* Map.swift */,
+				7AF9680823EC23D900C27749 /* ContentView.swift */,
+				7AF9683423EC24F500C27749 /* StreetArtDetail.swift */,
+				7AF9680A23EC23DB00C27749 /* Assets.xcassets */,
+				7AF9680F23EC23DB00C27749 /* LaunchScreen.storyboard */,
+				7AF9681223EC23DB00C27749 /* Info.plist */,
+				7AF9680C23EC23DB00C27749 /* Preview Content */,
+			);
+			path = "IntoStreet Art";
+			sourceTree = "<group>";
+		};
+		7AF9680C23EC23DB00C27749 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7AF9680D23EC23DB00C27749 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7AF9681A23EC23DB00C27749 /* IntoStreet ArtTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AF9681B23EC23DB00C27749 /* IntoStreet_ArtTests.swift */,
+				7AF9681D23EC23DB00C27749 /* Info.plist */,
+			);
+			path = "IntoStreet ArtTests";
+			sourceTree = "<group>";
+		};
+		7AF9682523EC23DB00C27749 /* IntoStreet ArtUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7AF9682623EC23DB00C27749 /* IntoStreet_ArtUITests.swift */,
+				7AF9682823EC23DB00C27749 /* Info.plist */,
+			);
+			path = "IntoStreet ArtUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AF9680023EC23D900C27749 /* IntoStreet Art */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AF9682B23EC23DB00C27749 /* Build configuration list for PBXNativeTarget "IntoStreet Art" */;
+			buildPhases = (
+				7AF967FD23EC23D900C27749 /* Sources */,
+				7AF967FE23EC23D900C27749 /* Frameworks */,
+				7AF967FF23EC23D900C27749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IntoStreet Art";
+			productName = "IntoStreet Art";
+			productReference = 7AF9680123EC23D900C27749 /* IntoStreet Art.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AF9681623EC23DB00C27749 /* IntoStreet ArtTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AF9682E23EC23DB00C27749 /* Build configuration list for PBXNativeTarget "IntoStreet ArtTests" */;
+			buildPhases = (
+				7AF9681323EC23DB00C27749 /* Sources */,
+				7AF9681423EC23DB00C27749 /* Frameworks */,
+				7AF9681523EC23DB00C27749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AF9681923EC23DB00C27749 /* PBXTargetDependency */,
+			);
+			name = "IntoStreet ArtTests";
+			productName = "IntoStreet ArtTests";
+			productReference = 7AF9681723EC23DB00C27749 /* IntoStreet ArtTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7AF9682123EC23DB00C27749 /* IntoStreet ArtUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AF9683123EC23DB00C27749 /* Build configuration list for PBXNativeTarget "IntoStreet ArtUITests" */;
+			buildPhases = (
+				7AF9681E23EC23DB00C27749 /* Sources */,
+				7AF9681F23EC23DB00C27749 /* Frameworks */,
+				7AF9682023EC23DB00C27749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AF9682423EC23DB00C27749 /* PBXTargetDependency */,
+			);
+			name = "IntoStreet ArtUITests";
+			productName = "IntoStreet ArtUITests";
+			productReference = 7AF9682223EC23DB00C27749 /* IntoStreet ArtUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AF967F923EC23D900C27749 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = AppCoda;
+				TargetAttributes = {
+					7AF9680023EC23D900C27749 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					7AF9681623EC23DB00C27749 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 7AF9680023EC23D900C27749;
+					};
+					7AF9682123EC23DB00C27749 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 7AF9680023EC23D900C27749;
+					};
+				};
+			};
+			buildConfigurationList = 7AF967FC23EC23D900C27749 /* Build configuration list for PBXProject "IntoStreet Art" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AF967F823EC23D900C27749;
+			productRefGroup = 7AF9680223EC23D900C27749 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AF9680023EC23D900C27749 /* IntoStreet Art */,
+				7AF9681623EC23DB00C27749 /* IntoStreet ArtTests */,
+				7AF9682123EC23DB00C27749 /* IntoStreet ArtUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AF967FF23EC23D900C27749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF9681123EC23DB00C27749 /* LaunchScreen.storyboard in Resources */,
+				7AF9680E23EC23DB00C27749 /* Preview Assets.xcassets in Resources */,
+				7AF9680B23EC23DB00C27749 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF9681523EC23DB00C27749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF9682023EC23DB00C27749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AF967FD23EC23D900C27749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF9680523EC23D900C27749 /* AppDelegate.swift in Sources */,
+				7AD1544623EED9D600AB8C89 /* StreetArt.swift in Sources */,
+				7AD1544C23EEDA7A00AB8C89 /* Map.swift in Sources */,
+				7AF9683523EC24F500C27749 /* StreetArtDetail.swift in Sources */,
+				7AD1544A23EEDA1B00AB8C89 /* LocationManager.swift in Sources */,
+				7AD1544823EED9E400AB8C89 /* Favorites.swift in Sources */,
+				7AF9680723EC23D900C27749 /* SceneDelegate.swift in Sources */,
+				7AD1544E23EEDA8100AB8C89 /* Pagina1.swift in Sources */,
+				7AF9680923EC23D900C27749 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF9681323EC23DB00C27749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF9681C23EC23DB00C27749 /* IntoStreet_ArtTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF9681E23EC23DB00C27749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF9682723EC23DB00C27749 /* IntoStreet_ArtUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AF9681923EC23DB00C27749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AF9680023EC23D900C27749 /* IntoStreet Art */;
+			targetProxy = 7AF9681823EC23DB00C27749 /* PBXContainerItemProxy */;
+		};
+		7AF9682423EC23DB00C27749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AF9680023EC23D900C27749 /* IntoStreet Art */;
+			targetProxy = 7AF9682323EC23DB00C27749 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7AF9680F23EC23DB00C27749 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AF9681023EC23DB00C27749 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AF9682923EC23DB00C27749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7AF9682A23EC23DB00C27749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AF9682C23EC23DB00C27749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"IntoStreet Art/Preview Content\"";
+				DEVELOPMENT_TEAM = YF9Y6C4L7G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "IntoStreet Art/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appcoda.IntoStreet-Art";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7AF9682D23EC23DB00C27749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"IntoStreet Art/Preview Content\"";
+				DEVELOPMENT_TEAM = YF9Y6C4L7G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "IntoStreet Art/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appcoda.IntoStreet-Art";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7AF9682F23EC23DB00C27749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YF9Y6C4L7G;
+				INFOPLIST_FILE = "IntoStreet ArtTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appcoda.IntoStreet-ArtTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntoStreet Art.app/IntoStreet Art";
+			};
+			name = Debug;
+		};
+		7AF9683023EC23DB00C27749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YF9Y6C4L7G;
+				INFOPLIST_FILE = "IntoStreet ArtTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appcoda.IntoStreet-ArtTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntoStreet Art.app/IntoStreet Art";
+			};
+			name = Release;
+		};
+		7AF9683223EC23DB00C27749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YF9Y6C4L7G;
+				INFOPLIST_FILE = "IntoStreet ArtUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appcoda.IntoStreet-ArtUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "IntoStreet Art";
+			};
+			name = Debug;
+		};
+		7AF9683323EC23DB00C27749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YF9Y6C4L7G;
+				INFOPLIST_FILE = "IntoStreet ArtUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appcoda.IntoStreet-ArtUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "IntoStreet Art";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AF967FC23EC23D900C27749 /* Build configuration list for PBXProject "IntoStreet Art" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF9682923EC23DB00C27749 /* Debug */,
+				7AF9682A23EC23DB00C27749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AF9682B23EC23DB00C27749 /* Build configuration list for PBXNativeTarget "IntoStreet Art" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF9682C23EC23DB00C27749 /* Debug */,
+				7AF9682D23EC23DB00C27749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AF9682E23EC23DB00C27749 /* Build configuration list for PBXNativeTarget "IntoStreet ArtTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF9682F23EC23DB00C27749 /* Debug */,
+				7AF9683023EC23DB00C27749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AF9683123EC23DB00C27749 /* Build configuration list for PBXNativeTarget "IntoStreet ArtUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF9683223EC23DB00C27749 /* Debug */,
+				7AF9683323EC23DB00C27749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AF967F923EC23D900C27749 /* Project object */;
+}
